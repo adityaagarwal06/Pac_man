@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="menu_mod" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\menu_mod" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\menu_mod" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt.a" />
+				</Linker>
+			</Target>
+			<Target title="maze1">
+				<Option output="bin\maze1\menu_mod" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\maze1\" />
+				<Option object_output="obj\maze1\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic" />
+			<Add option="-std=c++98" />
+			<Add option="-Wall" />
+			<Add option="-Wno-write-strings" />
+			<Add option="-x c++" />
+			<Add directory="$(CODEBLOCKS)\sdk\winbgim\include" />
+			<Add directory="C:\menu_mod\" />
+			<Add directory="C:\allegro-5.0.10-mingw-4.7.0\include" />
+			<Add directory="C:\menu_mod\include" />
+		</Compiler>
+		<Linker>
+			<Add library="sprite" />
+			<Add library="bgi" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+			<Add library="uuid" />
+			<Add library="oleaut32" />
+			<Add library="ole32" />
+			<Add directory="$(CODEBLOCKS)\sdk\winbgim\lib" />
+		</Linker>
+		<Unit filename="maze.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="maze1.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mazecall.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mazecall.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mem.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
