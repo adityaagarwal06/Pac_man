@@ -1,0 +1,84 @@
+
+
+Hello this is our cs101 project titled pacman
+
+this is the video demonstration of our project
+
+our team id is 291
+
+and team members are the following
+
+aditya agarwal 14D110015
+rishabh jain 140110065
+rishabh dosi 140110066
+harshita motwani 140110075
+
+Now to run our game,
+
+Use a linux based os(preferably ubuntu)
+make sure you have a simplecpp compiler
+
+download our files from moodle
+and extract it into a folder
+
+please make sure all the files are in same folder
+
+open the source folder
+
+in it click open the folder pacman
+make sure it contains 5 files
+namely  'Main_menu.cpp'
+	'easy_maze_only.h'
+	'pacman_level_maze2.h'
+	'pacman_level_maze2.cpp'
+	'pacman_level_easy.cpp' 
+
+build and run the 'Main_menu.cpp' file either through terminal ar through code blocks
+you will see a menu giving options
+
+	play
+	help
+	about 
+	exit
+
+on clicking help instruction are given.
+clicking on back takes us back on the menu.
+
+on clicking about details of our project team is mentioned.
+clicking on back takes us back on the menu.
+
+on clicking exit the program terminates.
+We will show that on the end of this video.
+
+now click on play,
+choose either easy or hard or back.
+clicking on easy will open the first maze.
+use w,a,s,d to navigate the pacman.
+the pacman eats the pac dots.
+The functionality of the project will be shown in the hard maze.
+So please restart the program and choose hard maze this time.
+
+Use w,a,s,d to navigate the pacman in direction up,left,down or right.
+notice that the pacman is eating the pacdots.
+
+notice that the ghost are moving randomly and we are not controlling them.
+
+now let us eat a power dot at the end of the maze.
+now notice that the pacman is changing colour indicating that it has the power to kill the ghost.
+
+on contact with ghost,the ghost dies and respawns at its initial position.
+
+Now after some time the colour change stops indicating tha the power is lost.
+
+now contact with ghost leads to pacman's death and respawning at its initial position.
+
+now thru channel is demonstrated.
+
+now when all 3 lives are lost,the game ends and the score is displayed on the bottom.
+
+now we are back on the menu.
+
+Click on exit to close the program.
+
+
+Thank you for watching.
